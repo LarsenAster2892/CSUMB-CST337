@@ -1,0 +1,15 @@
+First, Watch the video "Reading and writing with the Arduino" on iLearn.
+
+The video describes how to connect and how to read in a certain digital pin if there are 5V or 0V. Our digital pins can be set on read or write. 
+Normally, you do that in the setup() function. The video shows how to determine if there are 5V or not, 
+depending on a switch being pressed. On another pin, which is set to "write", a LED is on depending on the input pin.
+
+Copy the principle and do our schematic, see the 2 pictures at iLearn under "homework hint". 
+What we do is basically exact the schematic from the video, but we have 4 times an input pin and 2 times an output pin. 
+Reading and writing works the same way, just don't forget: Every pin has a certain  number.
+In our case, we read 2 pins from a 2 Bit number A (determined by pressing the 2 switches) and 2 pins from number B. 
+You have to write the C-Arduino code, so that a 2 Bit adder is simulated. 
+So ask yourself, whats the truthtable for the 4 input Bits and the 2 output Bits ? 
+Whats 00 + 00 ? 00+ 01? 00 + 10? and so on. That you have to write to the 2 output pins which are connected to 2 LEDs (with 2 resistors I hope).
+
+In case you ruined a switch, take cables and connect / don't connect them on the video.
